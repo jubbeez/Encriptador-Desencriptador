@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Encriptador/Desencriptador</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <main>
+      <div class="alura-logo">
+        <img src="alura-logo.svg" />
+      </div> 
+
+      <textarea
+        style="resize: none"
+        id="input"
+        placeholder="Digite seu texto"
+        cols="30"
+        rows="8"
+      ></textarea>
+
+      <textarea
+        style="resize: none"
+        id="output"
+        cols="30"
+        rows="8"
+      ></textarea>
+    
+      <div class="rectangle-img">
+          <div class="menina-img"></div>
+          <div class="no-message">Nenhuma mensagem encontrada</div>
+          <div class="digiteParaCriptoOuDescripto"
+            >Digite um texto que você deseja criptografar ou
+            descriptografar.</div>
+      </div>
+
+      <div class="exclamacao-img">
+        <img src="exclamacao.svg" />
+      </div>
+      <p class="apenasLetrasMinusculas"
+        >Apenas letras minúsculas e sem acento.</p
+      >
+
+      <section class="buttons">
+        <button class="bt-criptografar">criptografar</button>
+
+        <button class="bt-descriptografar">descriptografar</button>
+
+        <button class="bt-copiar">copiar</button>
+      </section>
+
+      <div class="copy">
+        <p>&copy; Copyright 2023, Desenvolvido por Júlia Guarnieri</p>
+      </div>
+
+    </main>
+
+    <script src="./arquivo.js"></script>
+    <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+
+  </body>
+</html>

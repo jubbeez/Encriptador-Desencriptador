@@ -1,0 +1,209 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;700&display=swap');
+
+*{
+     font-family: "Inter", sans-serif;
+     font-style: normal;
+     margin: 0;
+     padding: 0;
+}
+
+/* quando tem asterisco, digo "qualquer elemento" e que é pra ter por padrão a fonte roboto. e só por segurança, caso a fonte não seja carregada é que colocamos o sans-serif */
+/* vou dizer que por padrao ninguem vai ter margem. isso terei que fazer manualmente se desejar */
+
+body, html {
+     background-color: #E5E5E5;
+     color:#fff;
+}
+
+main {
+    display: flex;
+}
+
+
+.alura-logo {
+    position: fixed;
+    left: 36.67%;
+    right: 37.43%;
+    top: 0%;
+    bottom: 0%;
+    width: 31.09px;
+    padding-top: 40px;
+    padding-left: 84px;
+    height: 48px;
+    width: 31.085588455200195px;
+    left: 44px;
+    top: 0px;
+    border-radius: 0px;
+
+}
+
+.rectangle-img {
+    border: 0 none;
+    outline: 0;
+    position: absolute;
+    left: 1000px; 
+    top: 40px;
+    background-image: url('rectangle.svg');
+    width: 350px;
+    height: 748px;
+    left: 1000px;
+    top: 40px;
+    border-radius: 32px;
+}
+
+.menina-img {
+    position: absolute;
+    width: 336px;
+    height: 304px;
+    background-image: url('menina.svg');
+    left: 45px;
+    top: 180px;
+
+}
+
+.no-message{
+    position: absolute;
+    top: 579px;
+    left: 45px;
+    width: 336px;
+    height: 58px;
+    top: 510px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 120%;
+
+    /* or 29px */
+    text-align: center;
+
+    /* Gray/gray-500 */
+    color: #343A40;
+}
+
+.digiteParaCriptoOuDescripto{
+    position: absolute;
+    width: 336px;
+    height: 48px;
+    top: 580px;
+    left: 45px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 150%;
+    text-align: center;
+    color: #495057;
+}
+
+#input {
+    display: flex;
+    position: fixed;
+    width: 680px;
+    height: 450px;
+    left: 240px;
+    top: 168px;
+    border: 0 none;
+    outline: 0;
+
+    font-style: normal;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 150%;
+    background-color: #E5E5E5;
+    color: #0A3871;
+}
+
+#output {
+    position: absolute;
+    background-image: url('rectangle.svg');
+    width: 350px;
+    height: 748px;
+    left: 1000px;
+    top: 40px;
+    border-radius: 32px;
+    outline: 0;
+    border: 0 none;
+    padding: 20px;
+    box-shadow: 0px 24px 32px -8px rgba(0, 0, 0, 0.08);
+
+    font-style: normal;
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 150%;
+    color: #0A3871;
+}
+
+.bt-criptografar, .bt-descriptografar, .bt-copiar {
+    justify-content: center;
+    padding: 24px;
+    width: 328px;
+    height: 67px;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 19px;
+    border-radius: 24px;
+    border: 1px solid #0A3871;
+    text-transform: uppercase;
+
+}
+
+.bt-criptografar:hover, .bt-descriptografar:hover, .bt-copiar:hover {
+    background-color: gray;
+}
+
+.bt-criptografar {
+    position: fixed;
+    top: 700px;
+    left: 250px;
+    background: #0A3871;
+}
+
+.bt-descriptografar {
+    position: fixed;
+    top: 700px;
+    left: 600px;
+    background: #D8DFE8;
+}
+
+.bt-copiar {
+    position: fixed;
+    left: 1032px;
+    top: 700px;
+    flex-direction: row;
+
+    /* Dark blue/dark-blue-300 */
+    border: 1px solid #0A3871;
+    border-radius: 24px;
+}
+
+.apenasLetrasMinusculas {
+    position: fixed;
+    width: 390px;
+    height: 18px;
+    font-weight: 400px;
+    font-size: 16px;
+    line-height: 150%;
+    color: #495057;
+    opacity: 0.8;
+    top: 650px;
+    left: 280px;
+
+}
+
+.exclamacao-img {
+    position: fixed;
+    top: 655px;
+    left: 258px;
+}
+
+.copy {
+    position: fixed;
+    width: 700px;
+    height: 18px;
+    font-weight: 400px;
+    font-size: 20px;
+    line-height: 150%;
+    color: #263a4e;
+    top: 800px;
+    left: 348px;
+}
