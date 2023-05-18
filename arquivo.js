@@ -44,6 +44,9 @@ function descriptografar() {
 btCopiar.addEventListener('click', ()=> {
   saidaTexto.select();
   document.execCommand('copy');
+  if (saidaTexto.value.indexOf(@) == -1{
+      saidaTexto.innerHTML = "invalido"
+                               }
   swal({
     
     title: "seu texto foi copiado!"
